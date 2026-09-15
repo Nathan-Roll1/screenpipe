@@ -1,0 +1,16 @@
+    Blocking waiting for file lock on build directory
+   Compiling screenpipe-audio-eval v0.4.50 (<screenpipe-checkout>/crates/screenpipe-audio-eval)
+   Compiling screenpipe-audio v0.4.50 (<screenpipe-checkout>/crates/screenpipe-audio)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1m 22s
+warning: the following packages contain code that will be rejected by a future version of Rust: block v0.1.6
+note: to see what the problems were, use the option `--future-incompat-report`, or run `cargo report future-incompatibilities --id 1`
+     Running `target/debug/screenpipe-eval-transcription --models orukeet --max-utterances 6 --librispeech-dir <evidence-directory>/repo-fixtures`
+loading librispeech: <evidence-directory>/repo-fixtures
+loaded 6 utterances (capped from 6 via max model cap)
+==> model orukeet (Orukeet) cap=6 utterances
+[orukeet][1/6] accuracy1 (35.13s) wer=0.275 cer=0.135
+[orukeet][2/6] accuracy2 (61.68s) wer=0.165 cer=0.111
+[orukeet][3/6] accuracy3 (13.74s) wer=0.286 cer=0.091
+[orukeet][4/6] accuracy4 (29.97s) wer=0.268 cer=0.151
+[orukeet][5/6] accuracy5 (29.99s) wer=0.710 cer=0.503
+[orukeet][6/6] poetic_kapil_gupta (52.56s) wer=0.009 cer=0.005

@@ -1,0 +1,71 @@
+   Compiling proc-macro2 v1.0.106
+   Compiling quote v1.0.45
+   Compiling serde_core v1.0.228
+   Compiling serde v1.0.228
+   Compiling indexmap v2.14.0
+   Compiling either v1.15.0
+   Compiling memchr v2.8.0
+   Compiling once_cell v1.21.4
+   Compiling errno v0.3.14
+   Compiling rustix v1.1.4
+   Compiling rayon v1.12.0
+   Compiling tempfile v3.27.0
+   Compiling sysinfo v0.29.11
+   Compiling syn v2.0.117
+   Compiling serde_json v1.0.149
+   Compiling serde_derive v1.0.228
+   Compiling serde_spanned v0.6.9
+   Compiling toml_datetime v0.6.11
+   Compiling toml_edit v0.22.27
+   Compiling toml v0.8.23
+   Compiling screenpipe-config v0.4.50 (<screenpipe-checkout>/crates/screenpipe-config)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 6.43s
+     Running unittests src/lib.rs (target/debug/deps/screenpipe_config-04935e9579c7d63a)
+
+running 43 tests
+test defaults::tests::classify_zero_ram_or_cores ... ok
+test defaults::tests::classify_mid_tier ... ok
+test defaults::tests::db_config_default_matches_high ... ok
+test defaults::tests::best_engine_low_tier_always_whisper_tiny ... ok
+test defaults::tests::channel_config_default_matches_high ... ok
+test defaults::tests::classify_high_tier ... ok
+test defaults::tests::channel_config_low_is_smaller ... ok
+test defaults::tests::classify_low_tier ... ok
+test defaults::tests::db_config_low_is_smaller ... ok
+test defaults::tests::detected_tier_fails_closed_when_measurements_are_missing ... ok
+test defaults::tests::orukeet_keeps_memory_guard_without_mlx_os_or_avx2_requirement ... ok
+test defaults::tests::parakeet_unsafe_on_low_and_mid_tier ... ok
+test defaults::tests::detected_tier_accepts_ram_only_when_it_proves_low_tier ... ok
+test defaults::tests::tier_round_trips ... ok
+test defaults::tests::detect_tier_returns_valid_tier ... ok
+test defaults::tests::default_engine_is_never_unsafe_for_same_cpu ... ok
+test recording::tests::deserializes_legacy_extra_fields ... ok
+test recording::tests::deserializes_from_empty_json ... ok
+test defaults::tests::high_tier_keeps_defaults ... ok
+test defaults::tests::low_tier_is_conservative ... ok
+test recording::tests::deserializes_real_store_bin_shape ... ok
+test recording::tests::explicit_screenpipe_aec_mode_enables_software_aec ... ok
+test recording::tests::explicit_aec_mode_wins_over_legacy_flags ... ok
+test recording::tests::audio_chunk_duration_accepts_i32 ... ok
+test persistence::tests::load_partial_toml_fills_defaults ... ok
+test recording::tests::malformed_monitor_id_shape_still_fails_deserialization ... ok
+test recording::tests::helper_deepgram_key_sentinel_values ... ok
+test recording::tests::malformed_domain_rule_survives_as_fail_closed_sentinel ... ok
+test persistence::tests::load_missing_file_returns_default ... ok
+test recording::tests::default_round_trips_through_json ... ok
+test recording::tests::legacy_scalar_monitor_id_deserializes_as_single_selection ... ok
+test recording::tests::flatten_simulation ... ok
+test recording::tests::missing_aec_mode_keeps_aec_off ... ok
+test recording::tests::meeting_piggyback_defaults_on ... ok
+test recording::tests::scrubbed_legacy_user_id_null_uses_empty_string_sentinel ... ok
+test recording::tests::unknown_fields_ignored ... ok
+test screen_lock::tests::pause_policy_covers_lock_and_record_while_locked_combinations ... ok
+test recording::tests::persisted_schedule_accepts_weekday_name_but_rejects_unknown_name ... ok
+test recording::tests::vocab_entry_accepts_bare_string_and_struct_mixed ... ok
+test recording::tests::semantic_context_mode_defaults_legacy_users_to_memory_and_round_trips ... ok
+test recording::tests::round_trips_through_toml ... ok
+test recording::tests::structured_domain_rules_deserialize_and_round_trip ... ok
+test persistence::tests::save_and_load_round_trip ... ok
+
+test result: ok. 43 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+

@@ -1,0 +1,111 @@
+   Compiling screenpipe-audio v0.4.50 (<screenpipe-checkout>/crates/screenpipe-audio)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 7.45s
+warning: the following packages contain code that will be rejected by a future version of Rust: block v0.1.6
+note: to see what the problems were, use the option `--future-incompat-report`, or run `cargo report future-incompatibilities --id 1`
+     Running `target/debug/examples/bench_quality orukeet`
+2026-09-15T17:30:31.909393Z  INFO audiopipe::parakeet: loading encoder from <evidence-directory>/hf-home/hub/models--oruk--orukeet/snapshots/e31d65f0e6aaeec1cd4e84ed55e52ceef6a75717/onnx/combined-v0.1.0-int8/encoder-model.int8.onnx
+2026-09-15T17:30:31.909520Z  INFO audiopipe::parakeet: parakeet: loading encoder-model.int8.onnx on CPU (1 threads)
+2026-09-15T17:30:32.023554Z  WARN ort::logging: Removing initializer 'onnx::Conv_6789_quantized'. It is not used by any node and should be removed from the model.
+2026-09-15T17:30:32.023590Z  WARN ort::logging: Removing initializer 'onnx::Conv_6807_quantized'. It is not used by any node and should be removed from the model.
+2026-09-15T17:30:32.023600Z  WARN ort::logging: Removing initializer 'onnx::Conv_6840_quantized'. It is not used by any node and should be removed from the model.
+2026-09-15T17:30:32.023605Z  WARN ort::logging: Removing initializer 'onnx::Conv_6840_zero_point'. It is not used by any node and should be removed from the model.
+2026-09-15T17:30:32.023610Z  WARN ort::logging: Removing initializer 'onnx::Conv_6780_quantized'. It is not used by any node and should be removed from the model.
+2026-09-15T17:30:32.023614Z  WARN ort::logging: Removing initializer 'onnx::Conv_6837_zero_point'. It is not used by any node and should be removed from the model.
+2026-09-15T17:30:32.023620Z  WARN ort::logging: Removing initializer 'onnx::Conv_6798_zero_point'. It is not used by any node and should be removed from the model.
+2026-09-15T17:30:32.023624Z  WARN ort::logging: Removing initializer 'onnx::Conv_6834_zero_point'. It is not used by any node and should be removed from the model.
+2026-09-15T17:30:32.023630Z  WARN ort::logging: Removing initializer 'onnx::Conv_6831_quantized'. It is not used by any node and should be removed from the model.
+2026-09-15T17:30:32.023634Z  WARN ort::logging: Removing initializer 'onnx::Conv_6831_zero_point'. It is not used by any node and should be removed from the model.
+2026-09-15T17:30:32.023640Z  WARN ort::logging: Removing initializer 'onnx::Conv_6825_zero_point'. It is not used by any node and should be removed from the model.
+2026-09-15T17:30:32.023645Z  WARN ort::logging: Removing initializer 'onnx::Conv_6822_zero_point'. It is not used by any node and should be removed from the model.
+2026-09-15T17:30:32.023650Z  WARN ort::logging: Removing initializer 'onnx::Conv_6834_quantized'. It is not used by any node and should be removed from the model.
+2026-09-15T17:30:32.023654Z  WARN ort::logging: Removing initializer 'onnx::Conv_6819_quantized'. It is not used by any node and should be removed from the model.
+2026-09-15T17:30:32.023657Z  WARN ort::logging: Removing initializer 'onnx::Conv_6819_zero_point'. It is not used by any node and should be removed from the model.
+2026-09-15T17:30:32.023662Z  WARN ort::logging: Removing initializer 'onnx::Conv_6810_zero_point'. It is not used by any node and should be removed from the model.
+2026-09-15T17:30:32.023666Z  WARN ort::logging: Removing initializer 'onnx::Conv_6813_quantized'. It is not used by any node and should be removed from the model.
+2026-09-15T17:30:32.023672Z  WARN ort::logging: Removing initializer 'onnx::Conv_6828_quantized'. It is not used by any node and should be removed from the model.
+2026-09-15T17:30:32.023676Z  WARN ort::logging: Removing initializer 'onnx::Conv_6810_quantized'. It is not used by any node and should be removed from the model.
+2026-09-15T17:30:32.023680Z  WARN ort::logging: Removing initializer 'onnx::Conv_6783_zero_point'. It is not used by any node and should be removed from the model.
+2026-09-15T17:30:32.023699Z  WARN ort::logging: Removing initializer 'onnx::Conv_6804_quantized'. It is not used by any node and should be removed from the model.
+2026-09-15T17:30:32.023703Z  WARN ort::logging: Removing initializer 'onnx::Conv_6804_zero_point'. It is not used by any node and should be removed from the model.
+2026-09-15T17:30:32.023707Z  WARN ort::logging: Removing initializer 'onnx::Conv_6801_quantized'. It is not used by any node and should be removed from the model.
+2026-09-15T17:30:32.023713Z  WARN ort::logging: Removing initializer 'onnx::Conv_6795_quantized'. It is not used by any node and should be removed from the model.
+2026-09-15T17:30:32.023718Z  WARN ort::logging: Removing initializer 'onnx::Conv_6792_quantized'. It is not used by any node and should be removed from the model.
+2026-09-15T17:30:32.023723Z  WARN ort::logging: Removing initializer 'onnx::Conv_6822_quantized'. It is not used by any node and should be removed from the model.
+2026-09-15T17:30:32.023727Z  WARN ort::logging: Removing initializer 'onnx::Conv_6789_zero_point'. It is not used by any node and should be removed from the model.
+2026-09-15T17:30:32.023730Z  WARN ort::logging: Removing initializer 'onnx::Conv_6792_zero_point'. It is not used by any node and should be removed from the model.
+2026-09-15T17:30:32.023734Z  WARN ort::logging: Removing initializer 'onnx::Conv_6843_quantized'. It is not used by any node and should be removed from the model.
+2026-09-15T17:30:32.023737Z  WARN ort::logging: Removing initializer 'onnx::Conv_6786_quantized'. It is not used by any node and should be removed from the model.
+2026-09-15T17:30:32.023740Z  WARN ort::logging: Removing initializer 'onnx::Conv_6825_quantized'. It is not used by any node and should be removed from the model.
+2026-09-15T17:30:32.023744Z  WARN ort::logging: Removing initializer 'onnx::Conv_6783_quantized'. It is not used by any node and should be removed from the model.
+2026-09-15T17:30:32.023748Z  WARN ort::logging: Removing initializer 'onnx::Conv_6777_quantized'. It is not used by any node and should be removed from the model.
+2026-09-15T17:30:32.023752Z  WARN ort::logging: Removing initializer 'onnx::Conv_6780_zero_point'. It is not used by any node and should be removed from the model.
+2026-09-15T17:30:32.023758Z  WARN ort::logging: Removing initializer 'onnx::Conv_6843_zero_point'. It is not used by any node and should be removed from the model.
+2026-09-15T17:30:32.023761Z  WARN ort::logging: Removing initializer 'onnx::Conv_6807_zero_point'. It is not used by any node and should be removed from the model.
+2026-09-15T17:30:32.023764Z  WARN ort::logging: Removing initializer 'onnx::Conv_6798_quantized'. It is not used by any node and should be removed from the model.
+2026-09-15T17:30:32.023768Z  WARN ort::logging: Removing initializer 'onnx::Conv_6813_zero_point'. It is not used by any node and should be removed from the model.
+2026-09-15T17:30:32.023772Z  WARN ort::logging: Removing initializer 'onnx::Conv_6774_quantized'. It is not used by any node and should be removed from the model.
+2026-09-15T17:30:32.023775Z  WARN ort::logging: Removing initializer 'onnx::Conv_6786_zero_point'. It is not used by any node and should be removed from the model.
+2026-09-15T17:30:32.023783Z  WARN ort::logging: Removing initializer 'onnx::Conv_6774_zero_point'. It is not used by any node and should be removed from the model.
+2026-09-15T17:30:32.023786Z  WARN ort::logging: Removing initializer 'onnx::Conv_6816_zero_point'. It is not used by any node and should be removed from the model.
+2026-09-15T17:30:32.023794Z  WARN ort::logging: Removing initializer 'onnx::Conv_6777_zero_point'. It is not used by any node and should be removed from the model.
+2026-09-15T17:30:32.023801Z  WARN ort::logging: Removing initializer 'onnx::Conv_6828_zero_point'. It is not used by any node and should be removed from the model.
+2026-09-15T17:30:32.023807Z  WARN ort::logging: Removing initializer 'onnx::Conv_6816_quantized'. It is not used by any node and should be removed from the model.
+2026-09-15T17:30:32.023813Z  WARN ort::logging: Removing initializer 'onnx::Conv_6801_zero_point'. It is not used by any node and should be removed from the model.
+2026-09-15T17:30:32.023817Z  WARN ort::logging: Removing initializer 'onnx::Conv_6795_zero_point'. It is not used by any node and should be removed from the model.
+2026-09-15T17:30:32.023823Z  WARN ort::logging: Removing initializer 'onnx::Conv_6837_quantized'. It is not used by any node and should be removed from the model.
+2026-09-15T17:30:32.634336Z  INFO audiopipe::parakeet: loading decoder from <evidence-directory>/hf-home/hub/models--oruk--orukeet/snapshots/e31d65f0e6aaeec1cd4e84ed55e52ceef6a75717/onnx/combined-v0.1.0-int8/decoder_joint-model.int8.onnx
+2026-09-15T17:30:32.634374Z  INFO audiopipe::parakeet: parakeet: loading decoder_joint-model.int8.onnx on CPU (1 threads)
+2026-09-15T17:30:32.645830Z  INFO audiopipe::parakeet: parakeet loaded: vocab_size=8193
+orukeet loaded in 0.7s
+
+Config                                WER% ChrAc%    Time   Notes
+----------------------------------------------------------------------
+full-audio (no chunk)                38.5%  82.1%   10.4s  6short/0chunked
+30s/0s overlap, auto-lang            38.9%  82.0%   10.0s  3short/3chunked
+30s/1s overlap, auto-lang            51.5%  67.1%   10.2s  3short/3chunked
+30s/2s overlap, auto-lang            41.6%  78.5%   10.4s  3short/3chunked
+30s/1s overlap, lang=en              51.5%  67.1%   13.5s  3short/3chunked
+25s/1s overlap, auto-lang            63.0%  53.1%   17.2s  1short/5chunked
+40s/1s overlap, auto-lang            38.2%  82.3%   10.9s  4short/2chunked
+30s/3s overlap, auto-lang            41.6%  78.1%   10.5s  3short/3chunked
+20s/1s overlap, auto-lang            61.3%  52.9%   10.2s  1short/5chunked
+
+
+=== Detailed results: 30s/1s overlap (production config) ===
+
+--- accuracy1 (TTS meeting summary) (35.1s) ---
+  WER: 36.2% (29 edits / 80 ref words)
+  ChrAcc: 86.3%
+  Ref:  yo louis, here's the tldr of that mind-blowing meeting. bob's cat walked across ...
+  Got:  Yo, Louis. Here's the tell dar of that mind blowing meeting. Bob's cat walked ac...
+
+--- accuracy2 (TTS productivity report) (61.7s) ---
+  WER: 92.5% (147 edits / 159 ref words)
+  ChrAcc: 8.7%
+  Ref:  bro - got some good stuff from screenpipe here's the lowdown on your day, you pr...
+  Got:  Bro, got some good stuff from AI assistant, not planning to take over the world ...
+
+--- accuracy3 (screenpipe pitch) (13.7s) ---
+  WER: 39.3% (11 edits / 28 ref words)
+  ChrAcc: 88.4%
+  Ref:  again, screenpipe allows you to get meeting summaries, locally, without leaking ...
+  Got:  Again, Screenpipe allows you to get meeting summaries locally without leaking da...
+
+--- accuracy4 (casual conversation) (30.0s) ---
+  WER: 50.0% (41 edits / 82 ref words)
+  ChrAcc: 80.5%
+  Ref:  eventually but, i mean, i feel like but, i mean, first, i mean, you think your y...
+  Got:  Eventually, but I mean I feel like but I mean first I mean your your opinions mi...
+
+--- accuracy5 (noisy/accented) (30.0s) ---
+  WER: 83.9% (26 edits / 31 ref words)
+  ChrAcc: 43.5%
+  Ref:  thank you. yeah. so i cannot they they took it, refresh because of my one set to...
+  Got:  Um got news menu? Yeah. So I kind of fresh because of my one. And so the one thi...
+
+--- poetic (clear narration, 52s) (52.6s) ---
+  WER: 7.1% (8 edits / 112 ref words)
+  ChrAcc: 95.5%
+  Ref:  The fire, a silent murmur of existence, a radiant echo of the unseen, dances in ...
+  Got:  The fire, a silent murmur of existence, a radiant echo of the unseen, dances in ...
+

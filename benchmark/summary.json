@@ -1,0 +1,134 @@
+{
+  "models": {
+    "parakeet": {
+      "calls": 36,
+      "fixtures": 6,
+      "median_ms": 1676.1491045,
+      "p95_ms": 3118.6463432499995,
+      "audio_per_processing_second": 19.84274066907301,
+      "rtf": 0.05039626413898584,
+      "corpus_wer": 0.20366598778004075,
+      "mean_fixture_wer": 0.2705918833637091,
+      "word_errors": 100,
+      "reference_words": 491,
+      "per_fixture": [
+        {
+          "id": "accuracy1",
+          "reference_words": 80,
+          "errors": 22,
+          "wer": 0.275,
+          "audio_s": 35.1346875,
+          "median_ms": 1773.6059375
+        },
+        {
+          "id": "accuracy2",
+          "reference_words": 158,
+          "errors": 27,
+          "wer": 0.17088607594936708,
+          "audio_s": 61.675125,
+          "median_ms": 3107.841541
+        },
+        {
+          "id": "accuracy3",
+          "reference_words": 28,
+          "errors": 5,
+          "wer": 0.17857142857142858,
+          "audio_s": 13.7404375,
+          "median_ms": 671.3187499999999
+        },
+        {
+          "id": "accuracy4",
+          "reference_words": 82,
+          "errors": 23,
+          "wer": 0.2804878048780488,
+          "audio_s": 29.973375,
+          "median_ms": 1517.2493329999998
+        },
+        {
+          "id": "accuracy5",
+          "reference_words": 31,
+          "errors": 22,
+          "wer": 0.7096774193548387,
+          "audio_s": 29.9946875,
+          "median_ms": 1510.853208
+        },
+        {
+          "id": "poetic_kapil_gupta",
+          "reference_words": 112,
+          "errors": 1,
+          "wer": 0.008928571428571428,
+          "audio_s": 52.558375,
+          "median_ms": 2608.2108125
+        }
+      ],
+      "peak_rss_bytes": 2361769984,
+      "load_s_one_observation": 0.671148
+    },
+    "orukeet": {
+      "calls": 36,
+      "fixtures": 6,
+      "median_ms": 1469.960875,
+      "p95_ms": 2758.9946870000003,
+      "audio_per_processing_second": 22.37784193303464,
+      "rtf": 0.0446870615581469,
+      "corpus_wer": 0.20570264765784113,
+      "mean_fixture_wer": 0.2853616535749736,
+      "word_errors": 101,
+      "reference_words": 491,
+      "per_fixture": [
+        {
+          "id": "accuracy1",
+          "reference_words": 80,
+          "errors": 22,
+          "wer": 0.275,
+          "audio_s": 35.1346875,
+          "median_ms": 1581.251875
+        },
+        {
+          "id": "accuracy2",
+          "reference_words": 158,
+          "errors": 26,
+          "wer": 0.16455696202531644,
+          "audio_s": 61.675125,
+          "median_ms": 2756.533187
+        },
+        {
+          "id": "accuracy3",
+          "reference_words": 28,
+          "errors": 8,
+          "wer": 0.2857142857142857,
+          "audio_s": 13.7404375,
+          "median_ms": 603.122167
+        },
+        {
+          "id": "accuracy4",
+          "reference_words": 82,
+          "errors": 22,
+          "wer": 0.2682926829268293,
+          "audio_s": 29.973375,
+          "median_ms": 1348.4977709999998
+        },
+        {
+          "id": "accuracy5",
+          "reference_words": 31,
+          "errors": 22,
+          "wer": 0.7096774193548387,
+          "audio_s": 29.9946875,
+          "median_ms": 1341.1630625
+        },
+        {
+          "id": "poetic_kapil_gupta",
+          "reference_words": 112,
+          "errors": 1,
+          "wer": 0.008928571428571428,
+          "audio_s": 52.558375,
+          "median_ms": 2319.8659795000003
+        }
+      ],
+      "peak_rss_bytes": 2619293696,
+      "load_s_one_observation": 0.727923
+    }
+  },
+  "median_reduction_pct": 12.301305948643904,
+  "scope": "Screenpipe six bench_quality fixtures; exact audiopipe 780ef2d runtime; CPU ONNX, not macOS MLX; preloaded WAV; 30s chunk safety matching TranscriptionSession; ABBA, 3 passes per block, 2 excluded warmups; development laptop, no full capture pipeline."
+}

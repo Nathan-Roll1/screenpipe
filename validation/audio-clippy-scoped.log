@@ -1,0 +1,173 @@
+    Checking screenpipe-cpu-features v0.4.50 (<screenpipe-checkout>/crates/screenpipe-cpu-features)
+    Checking screenpipe-sqlite-coordinator v0.4.50 (<screenpipe-checkout>/crates/screenpipe-sqlite-coordinator)
+   Compiling screenpipe-audio v0.4.50 (<screenpipe-checkout>/crates/screenpipe-audio)
+    Checking screenpipe-semantic v0.1.0 (<screenpipe-checkout>/crates/screenpipe-semantic)
+    Checking screenpipe-events v0.4.50 (<screenpipe-checkout>/crates/screenpipe-events)
+    Checking screenpipe-config v0.4.50 (<screenpipe-checkout>/crates/screenpipe-config)
+    Checking screenpipe-core v0.4.50 (<screenpipe-checkout>/crates/screenpipe-core)
+    Checking screenpipe-db v0.4.50 (<screenpipe-checkout>/crates/screenpipe-db)
+warning: this function has too many arguments (8/7)
+   --> crates/screenpipe-audio/src/core/run_record_and_transcribe.rs:185:1
+    |
+185 | / pub async fn run_record_and_transcribe(
+186 | |     audio_stream: Arc<AudioStream>,
+187 | |     duration: Duration,
+188 | |     whisper_sender: Arc<crossbeam::channel::Sender<AudioInput>>,
+...   |
+193 | |     screenpipe_aec_enabled: bool,
+194 | | ) -> Result<()> {
+    | |_______________^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#too_many_arguments
+    = note: `#[warn(clippy::too_many_arguments)]` on by default
+
+warning: this function has too many arguments (8/7)
+   --> crates/screenpipe-audio/src/core/run_record_and_transcribe.rs:799:1
+    |
+799 | / async fn flush_audio(
+800 | |     collected_audio: &mut Vec<f32>,
+801 | |     overlap_samples: usize,
+802 | |     capture_timestamp: u64,
+...   |
+807 | |     aec_active: bool,
+808 | | ) -> Result<()> {
+    | |_______________^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#too_many_arguments
+
+warning: this function has too many arguments (8/7)
+   --> crates/screenpipe-audio/src/core/mod.rs:109:1
+    |
+109 | / pub async fn record_and_transcribe_with_live_tap(
+110 | |     audio_stream: Arc<AudioStream>,
+111 | |     duration: std::time::Duration,
+112 | |     whisper_sender: Arc<crossbeam::channel::Sender<AudioInput>>,
+...   |
+117 | |     screenpipe_aec_enabled: bool,
+118 | | ) -> Result<()> {
+    | |_______________^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#too_many_arguments
+
+warning: this function has too many arguments (8/7)
+   --> crates/screenpipe-audio/src/speaker/segment.rs:113:1
+    |
+113 | / fn create_speech_segments(
+114 | |     start_offset: f64,
+115 | |     offset: i32,
+116 | |     sample_rate: u32,
+...   |
+121 | |     retain_samples: bool,
+122 | | ) -> Result<Vec<SpeechSegment>> {
+    | |_______________________________^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#too_many_arguments
+
+warning: this function has too many arguments (8/7)
+  --> crates/screenpipe-audio/src/transcription/transcription_result.rs:77:1
+   |
+77 | / pub async fn process_transcription_result(
+78 | |     db: &DatabaseManager,
+79 | |     result: TranscriptionResult,
+80 | |     audio_transcription_engine: Arc<AudioTranscriptionEngine>,
+...  |
+95 | |     data_dir: &Path,
+96 | | ) -> Result<Option<AudioInsertResult>, anyhow::Error> {
+   | |_____________________________________________________^
+   |
+   = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#too_many_arguments
+
+warning: this function has too many arguments (8/7)
+  --> crates/screenpipe-audio/src/transcription/handle_new_transcript.rs:38:1
+   |
+38 | / pub async fn handle_new_transcript(
+39 | |     db: Arc<DatabaseManager>,
+40 | |     transcription_receiver: Arc<crossbeam::channel::Receiver<TranscriptionResult>>,
+41 | |     transcription_engine: Arc<AudioTranscriptionEngine>,
+...  |
+54 | |     output_path: PathBuf,
+55 | | ) {
+   | |_^
+   |
+   = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#too_many_arguments
+
+warning: all variants have the same postfix: `Input`
+   --> crates/screenpipe-audio/src/audio_manager/meeting_piggyback.rs:183:1
+    |
+183 | / pub(crate) enum MicFollowAction {
+184 | |     /// Open our session stream on a resolved mic. Emitted at most once per
+185 | |     /// enroll/retry edge (floored by [`MIC_RETRY_FLOOR_MS`]); the sweep MUST
+186 | |     /// report the outcome via [`MicFollow::note_open_result`].
+...   |
+195 | |     UnsuspendInput(String),
+196 | | }
+    | |_^
+    |
+    = help: remove the postfixes and use full paths to the variants instead of glob imports
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#enum_variant_names
+    = note: `#[warn(clippy::enum_variant_names)]` on by default
+
+warning: this function has too many arguments (8/7)
+   --> crates/screenpipe-audio/src/audio_manager/reconciliation.rs:186:1
+    |
+186 | / pub async fn reconcile_untranscribed(
+187 | |     db: &DatabaseManager,
+188 | |     transcription_engine: &TranscriptionEngine,
+189 | |     on_insert: Option<&AudioInsertCallback>,
+...   |
+194 | |     metrics: Option<Arc<AudioPipelineMetrics>>,
+195 | | ) -> ReconciliationSweep {
+    | |________________________^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#too_many_arguments
+
+warning: casting to the same type is unnecessary (`i32` -> `i32`)
+   --> crates/screenpipe-audio/src/meeting_processes.rs:197:52
+    |
+197 |             let pid = process.pid().ok().map(|pid| pid as i32);
+    |                                                    ^^^^^^^^^^ help: try: `pid`
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#unnecessary_cast
+    = note: `#[warn(clippy::unnecessary_cast)]` on by default
+
+warning: this assertion has a constant value
+   --> crates/screenpipe-audio/src/speaker/embedding_manager.rs:283:9
+    |
+283 | /         assert!(
+284 | |             DEFAULT_MAX_SPEAKERS >= 256,
+285 | |             "cap must be generous enough not to harm real diarization"
+286 | |         );
+    | |_________^
+    |
+    = help: consider moving this into a const block: `const { assert!(..) }`
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#assertions_on_constants
+    = note: `#[warn(clippy::assertions_on_constants)]` on by default
+
+warning: this function has too many arguments (8/7)
+   --> crates/screenpipe-audio/src/meeting_streaming/controller.rs:388:1
+    |
+388 | / async fn start_streaming_session(
+389 | |     config: &MeetingStreamingConfig,
+390 | |     audio_tap: &MeetingAudioTap,
+391 | |     transcription_engine: &Arc<RwLock<Option<TranscriptionEngine>>>,
+...   |
+396 | |     extra_keyterms: Vec<String>,
+397 | | ) {
+    | |_^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#too_many_arguments
+
+warning: `budget` is never smaller than `0` and has therefore no effect
+   --> crates/screenpipe-audio/src/transcription/whisper/batch.rs:226:42
+    |
+226 |             assert!(p.chars().count() <= budget.max(0));
+    |                                          ^^^^^^^^^^^^^ help: try: `budget`
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#unnecessary_min_or_max
+    = note: `#[warn(clippy::unnecessary_min_or_max)]` on by default
+
+warning: `screenpipe-audio` (lib) generated 10 warnings (run `cargo clippy --fix --lib -p screenpipe-audio -- --no-deps` to apply 1 suggestion)
+warning: `screenpipe-audio` (lib test) generated 12 warnings (10 duplicates) (run `cargo clippy --fix --lib -p screenpipe-audio --tests -- --no-deps` to apply 1 suggestion)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 47.51s
+warning: the following packages contain code that will be rejected by a future version of Rust: block v0.1.6
+note: to see what the problems were, use the option `--future-incompat-report`, or run `cargo report future-incompatibilities --id 1`

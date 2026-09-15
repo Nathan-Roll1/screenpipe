@@ -1,0 +1,23 @@
+{
+  "timestamp": 1789492866.428711,
+  "platform": "macOS-26.4.1-arm64-arm-64bit-Mach-O",
+  "source_commit": "780ef2d86f4186b34a7238d17ed5b7b7a7a31e0f",
+  "order": [
+    "parakeet",
+    "orukeet",
+    "orukeet",
+    "parakeet"
+  ],
+  "model_sha256": {
+    "parakeet": {
+      "encoder-model.int8.onnx": "6139d2fa7e1b086097b277c7149725edbab89cc7c7ae64b23c741be4055aff09",
+      "decoder_joint-model.int8.onnx": "eea7483ee3d1a30375daedc8ed83e3960c91b098812127a0d99d1c8977667a70"
+    },
+    "orukeet": {
+      "encoder-model.int8.onnx": "7b55f2a504a20a8e462899f5befd45f4a1784948d76ed0127902d9cf39405487",
+      "decoder_joint-model.int8.onnx": "95d3b1f53f9aadc5ef58e63664a3681a2184ee228b5010e1ef975a1c4ea8318a"
+    }
+  },
+  "includes": "16k mono samples to text; same 30s hard chunks as Screenpipe; preload plus 2 warmups excluded",
+  "threads": "audiopipe default: intra=1, inter=1"
+}

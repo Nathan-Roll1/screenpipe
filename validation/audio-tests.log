@@ -1,0 +1,12 @@
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.56s
+warning: the following packages contain code that will be rejected by a future version of Rust: block v0.1.6
+note: to see what the problems were, use the option `--future-incompat-report`, or run `cargo report future-incompatibilities --id 1`
+     Running unittests src/lib.rs (target/debug/deps/screenpipe_audio-912fd95f3b08edf6)
+
+running 3 tests
+test transcription::orukeet::tests::incompatible_or_malformed_configuration_is_rejected ... ok
+test transcription::orukeet::tests::cache_requires_complete_pinned_installation ... ok
+test transcription::engine::merge_keyterms_tests::cached_orukeet_preserves_model_identity_and_shares_sessions ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 482 filtered out; finished in 0.78s
+

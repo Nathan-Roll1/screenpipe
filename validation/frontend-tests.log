@@ -1,0 +1,12 @@
+[33mThe CJS build of Vite's Node API is deprecated. See https://vite.dev/guide/troubleshooting.html#vite-cjs-node-api-deprecated for more details.[39m
+
+ RUN  v1.6.1 <screenpipe-checkout>/apps/screenpipe-app-tauri
+
+ ✓ lib/__tests__/language-support.test.ts  (11 tests) 2ms
+ ✓ lib/hooks/managed-settings.test.ts  (26 tests) 4ms
+
+ Test Files  2 passed (2)
+      Tests  37 passed (37)
+   Start at  10:32:05
+   Duration  459ms (transform 37ms, setup 78ms, collect 33ms, tests 6ms, environment 431ms, prepare 83ms)
+

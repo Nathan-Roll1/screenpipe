@@ -1,0 +1,17 @@
+ Downloading crates ...
+  Downloaded tokenizers v0.21.4
+    Checking tokenizers v0.21.4
+   Compiling screenpipe-engine v0.4.50 (<screenpipe-checkout>/crates/screenpipe-engine)
+    Checking screenpipe-redact v0.4.50 (<screenpipe-checkout>/crates/screenpipe-redact)
+warning: function `classify_vision_reason` is never used
+   --> crates/screenpipe-engine/src/routes/health.rs:333:15
+    |
+333 | pub(crate) fn classify_vision_reason(
+    |               ^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: `screenpipe-engine` (lib) generated 1 warning
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 13.12s
+warning: the following packages contain code that will be rejected by a future version of Rust: block v0.1.6
+note: to see what the problems were, use the option `--future-incompat-report`, or run `cargo report future-incompatibilities --id 1`

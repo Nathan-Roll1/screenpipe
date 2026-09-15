@@ -1,0 +1,471 @@
+    Checking scopeguard v1.2.0
+    Checking bitflags v2.11.1
+    Checking stable_deref_trait v1.2.1
+    Checking libc v0.2.186
+    Checking num-complex v0.4.6
+    Checking zerofrom v0.1.7
+    Checking futures-util v0.3.32
+    Checking bytemuck v1.25.0
+    Checking zeroize v1.9.0
+    Checking serde_json v1.0.149
+    Checking lazy_static v1.5.0
+    Checking typenum v1.20.0
+    Checking crossbeam-epoch v0.9.18
+    Checking half v2.7.1
+    Checking subtle v2.6.1
+    Checking aho-corasick v1.1.4
+    Checking hashbrown v0.16.1
+    Checking num-bigint v0.4.6
+    Checking as-slice v0.2.1
+    Checking lock_api v0.4.14
+    Checking concurrent-queue v2.5.0
+    Checking yoke v0.8.2
+    Checking aligned v0.4.3
+    Checking clap_builder v4.6.0
+    Checking rustls-pki-types v1.14.1
+    Checking aws-lc-rs v1.16.3
+    Checking derive_more v2.1.1
+    Checking screenpipe-cpu-features v0.4.50 (<screenpipe-checkout>/crates/screenpipe-cpu-features)
+    Checking zerovec v0.11.6
+    Checking zerotrie v0.2.4
+    Checking spin v0.9.8
+    Checking crossbeam-deque v0.8.6
+    Checking rustfft v6.4.1
+    Checking event-listener v5.4.1
+    Checking errno v0.3.14
+    Checking parking_lot_core v0.9.12
+    Checking socket2 v0.6.3
+    Checking signal-hook-registry v1.4.8
+    Checking mio v1.2.0
+    Checking core-foundation v0.10.1
+    Checking getrandom v0.2.17
+    Checking getrandom v0.4.2
+    Checking parking_lot v0.12.5
+    Checking generic-array v0.14.7
+    Checking rustix v1.1.4
+    Checking system-configuration-sys v0.6.0
+    Checking core-foundation v0.9.4
+    Checking security-framework-sys v2.17.0
+    Checking ring v0.17.14
+    Checking rayon-core v1.13.0
+    Checking cpufeatures v0.2.17
+    Checking tinystr v0.8.3
+    Checking potential_utf v0.1.5
+    Checking getrandom v0.3.4
+    Checking webpki-roots v1.0.7
+    Checking security-framework v3.7.0
+    Checking icu_collections v2.2.0
+    Checking malloc_buf v0.0.6
+    Checking hashlink v0.11.1
+    Checking icu_locale_core v2.2.0
+    Checking rand_core v0.9.5
+    Checking system-configuration v0.7.0
+    Checking objc v0.2.7
+    Checking tokio v1.53.1
+    Checking dirs-sys v0.5.0
+    Checking dirs v6.0.0
+    Checking rand_chacha v0.9.0
+    Checking futures-intrusive v0.5.0
+    Checking regex-automata v0.4.18
+    Checking core-graphics-types v0.2.0
+    Checking rayon v1.12.0
+    Checking rand_core v0.6.4
+    Checking webpki-roots v0.26.11
+    Checking uuid v1.24.0
+    Checking flume v0.12.0
+    Checking rand v0.9.4
+    Checking block-buffer v0.10.4
+    Checking crypto-common v0.1.7
+    Checking num-rational v0.4.2
+    Checking rand_chacha v0.3.1
+    Checking digest v0.10.7
+    Checking console v0.15.11
+    Checking socks v0.3.4
+    Checking core-graphics v0.24.0
+    Checking rand v0.8.6
+    Checking sha2 v0.10.9
+    Checking av1-grain v0.2.5
+    Checking cocoa-foundation v0.2.1
+    Checking openapiv3-extended v6.0.1
+    Checking icu_provider v2.2.0
+    Checking indicatif v0.17.11
+    Checking ciborium-ll v0.2.2
+    Checking tempfile v3.27.0
+    Checking num_cpus v1.17.0
+    Checking is-terminal v0.4.17
+    Checking sonora-common-audio v0.1.0 (https://github.com/dignifiedquire/sonora.git?rev=70c673606e1db8442a8ba20659b2bc7355555274#70c67360)
+    Checking ndarray v0.17.2
+    Checking exr v1.74.0
+    Checking icu_properties v2.2.0
+    Checking icu_normalizer v2.2.0
+    Checking native-tls v0.2.18
+    Checking tiff v0.11.3
+    Checking ciborium v0.2.2
+    Checking sha1 v0.10.6
+    Checking objc_id v0.1.1
+    Checking ahash v0.8.12
+    Checking tinytemplate v1.2.1
+    Checking dirs-sys v0.4.1
+    Checking fs2 v0.4.3
+    Checking png v0.18.1
+    Checking qoi v0.4.1
+    Checking sharded-slab v0.1.7
+    Checking clap v4.6.1
+    Checking cocoa v0.26.1
+    Checking tungstenite v0.24.0
+    Checking rusqlite v0.39.0
+    Checking parquet v59.3.0
+    Checking rustls-webpki v0.103.13
+    Checking which v7.0.3
+    Checking mp3lame-sys v0.1.11
+   Compiling screenpipe-audio v0.4.50 (<screenpipe-checkout>/crates/screenpipe-audio)
+    Checking dirs v5.0.1
+    Checking objc-foundation v0.1.1
+    Checking sonora-aec3 v0.1.0 (https://github.com/dignifiedquire/sonora.git?rev=70c673606e1db8442a8ba20659b2bc7355555274#70c67360)
+    Checking futures-executor v0.3.32
+    Checking rustls v0.23.40
+    Checking axum-core v0.4.5
+    Checking idna_adapter v1.2.2
+    Checking sonora-agc2 v0.1.0 (https://github.com/dignifiedquire/sonora.git?rev=70c673606e1db8442a8ba20659b2bc7355555274#70c67360)
+    Checking idna v1.1.0
+    Checking mach2 v0.4.3
+    Checking futures v0.3.32
+    Checking symphonia-core v0.5.5
+    Checking realfft v3.5.0
+    Checking av-scenechange v0.14.1
+    Checking maybe-rayon v0.1.1
+    Checking sysinfo v0.29.11
+    Checking ndarray v0.16.1
+    Checking crossbeam-channel v0.5.15
+    Checking dashmap v6.2.1
+    Checking url v2.5.8
+    Checking rubato v0.15.0
+    Checking mp3lame-encoder v0.2.4
+    Checking sonora v0.1.0 (https://github.com/dignifiedquire/sonora.git?rev=70c673606e1db8442a8ba20659b2bc7355555274#70c67360)
+    Checking screenpipe-config v0.4.50 (<screenpipe-checkout>/crates/screenpipe-config)
+    Checking cfb v0.7.3
+    Checking rav1e v0.8.1
+    Checking strsim v0.10.0
+    Checking crossbeam v0.8.4
+    Checking symphonia-metadata v0.5.5
+    Checking symphonia-codec-adpcm v0.5.5
+    Checking symphonia-codec-pcm v0.5.5
+    Checking symphonia-codec-aac v0.5.5
+    Checking regex v1.13.1
+    Checking matchers v0.2.0
+    Checking infer v0.15.0
+    Checking tracing-subscriber v0.3.23
+    Checking accessibility v0.3.0 (https://github.com/eiz/accessibility.git?rev=173e898d4a52ee0afe0224ecb458d324057856e7#173e898d)
+    Checking symphonia-utils-xiph v0.5.5
+    Checking symphonia-format-riff v0.5.5
+    Checking symphonia-codec-vorbis v0.5.5
+    Checking symphonia-format-mkv v0.5.5
+    Checking symphonia-bundle-flac v0.5.5
+    Checking symphonia-format-ogg v0.5.5
+    Checking symphonia-format-isomp4 v0.5.5
+    Checking screenpipe-semantic v0.1.0 (<screenpipe-checkout>/crates/screenpipe-semantic)
+    Checking env_logger v0.10.2
+    Checking symphonia v0.5.5
+    Checking ort v2.0.0-rc.12
+    Checking tokio-util v0.7.18
+    Checking tower v0.5.3
+    Checking tokio-native-tls v0.3.1
+    Checking cidre v0.15.1 (https://github.com/yury/cidre.git?rev=8481f3f0dc7dd39bb5be80d9424bfac0cad3801a#8481f3f0)
+    Checking criterion v0.5.1
+    Checking tokio-tungstenite v0.24.0
+    Checking knf-rs v0.3.2
+    Checking tower-http v0.6.10
+    Checking h2 v0.4.14
+    Checking tokio-stream v0.1.18
+warning: redundant closure
+    --> crates/screenpipe-semantic/src/parsers/families.rs:1373:48
+     |
+1373 |         .any(|root| tree.descendants(root).any(|node| predicate(node)))
+     |                                                ^^^^^^^^^^^^^^^^^^^^^^ help: replace the closure with the function itself: `&predicate`
+     |
+     = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#redundant_closure
+     = note: `#[warn(clippy::redundant_closure)]` on by default
+
+warning: `screenpipe-semantic` (lib) generated 1 warning (run `cargo clippy --fix --lib -p screenpipe-semantic -- ` to apply 1 suggestion)
+    Checking sqlx-core v0.9.0
+    Checking screenpipe-events v0.4.50 (<screenpipe-checkout>/crates/screenpipe-events)
+    Checking tokio-rustls v0.26.4
+    Checking ureq v2.12.1
+    Checking ureq v3.3.0
+    Checking rustls-platform-verifier v0.7.0
+    Checking vad-rs v0.2.0 (https://github.com/screenpipe/vad-rs-1.git?rev=260252c122c752c8c2da7e86caff7e706aace025#260252c1)
+    Checking ffmpeg-sidecar v2.5.0 (https://github.com/nathanbabcock/ffmpeg-sidecar?rev=b0f48a514235d1278d860f4a0af66aa9d6e1618d#b0f48a51)
+    Checking ravif v0.13.0
+    Checking image v0.25.10
+    Checking sqlx-sqlite v0.9.0
+    Checking hyper v1.9.0
+    Checking sqlx v0.9.0
+    Checking screenpipe-sqlite-coordinator v0.4.50 (<screenpipe-checkout>/crates/screenpipe-sqlite-coordinator)
+    Checking hyper-util v0.1.20
+    Checking hyper-tls v0.6.0
+    Checking axum v0.7.9
+    Checking hyper-rustls v0.27.9
+    Checking reqwest v0.12.28
+    Checking reqwest v0.13.3
+    Checking hf-hub v0.4.3
+    Checking hf-hub v0.3.2 (https://github.com/neo773/hf-hub?rev=437dcf4049233f4a0e0cfc4e1c1dbf5ed2c57760#437dcf40)
+    Checking screenpipe-core v0.4.50 (<screenpipe-checkout>/crates/screenpipe-core)
+    Checking audiopipe v0.2.0 (https://github.com/screenpipe/audiopipe.git?rev=780ef2d86f4186b34a7238d17ed5b7b7a7a31e0f#780ef2d8)
+warning: unnecessary `>= y + 1` or `x - 1 >=`
+    --> crates/screenpipe-core/src/agents/pi.rs:2999:36
+     |
+2999 |         if self.tail.is_empty() && self.head.len() + line.len() + 1 <= BOUNDED_OUTPUT_HEAD {
+     |                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ help: change it to: `self.head.len() + line.len() < BOUNDED_OUTPUT_HEAD`
+     |
+     = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#int_plus_one
+     = note: `#[warn(clippy::int_plus_one)]` on by default
+
+    Checking cpal v0.15.3 (https://github.com/screenpipe/cpal.git?rev=e7edfa174466e87a467d1a58e3a4aec233ff8a21#e7edfa17)
+    Checking oasgen-core v0.22.0
+    Checking oasgen v0.22.0
+    Checking screenpipe-db v0.4.50 (<screenpipe-checkout>/crates/screenpipe-db)
+warning: this looks like you are trying to use `.. *= ..`, but you really are doing `.. = (* ..)`
+   --> crates/screenpipe-db/src/storage/maintenance.rs:234:59
+    |
+234 |             let Some(last)=ids.last() else {break;}; after=*last;
+    |                                                           ^^
+    |
+    = note: to remove this lint, use either `*=` or `= *`
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#suspicious_assignment_formatting
+    = note: `#[warn(clippy::suspicious_assignment_formatting)]` on by default
+
+warning: manually constructing a nul-terminated string
+   --> crates/screenpipe-core/src/display_topology.rs:211:42
+    |
+211 |         let matching = IOServiceMatching(b"IOPMrootDomain\0".as_ptr().cast());
+    |                                          ^^^^^^^^^^^^^^^^^^^ help: use a `c""` literal: `c"IOPMrootDomain"`
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#manual_c_str_literals
+    = note: `#[warn(clippy::manual_c_str_literals)]` on by default
+
+warning: manually constructing a nul-terminated string
+   --> crates/screenpipe-core/src/display_topology.rs:224:13
+    |
+224 |             b"AppleClamshellState\0".as_ptr().cast(),
+    |             ^^^^^^^^^^^^^^^^^^^^^^^^ help: use a `c""` literal: `c"AppleClamshellState"`
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#manual_c_str_literals
+
+warning: this `impl` can be derived
+   --> crates/screenpipe-core/src/pipes/mod.rs:521:1
+    |
+521 | / impl Default for PipeEffort {
+522 | |     fn default() -> Self {
+523 | |         Self::Low
+524 | |     }
+525 | | }
+    | |_^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#derivable_impls
+    = note: `#[warn(clippy::derivable_impls)]` on by default
+help: replace the manual implementation with a derive attribute and mark the default variant
+    |
+505 + #[derive(Default)]
+506 | pub enum PipeEffort {
+507 ~     #[default]
+508 ~     Low,
+    |
+
+warning: this `if` statement can be collapsed
+    --> crates/screenpipe-core/src/pipes/mod.rs:1662:5
+     |
+1662 | /     if now >= expires_at.saturating_sub(60) {
+1663 | |         if refresh_chatgpt_token(&mut token_data, now) {
+1664 | |             if let Ok(updated) = serde_json::to_string_pretty(&token_data) {
+1665 | |                 let _ = std::fs::write(&path, updated);
+...    |
+1668 | |     }
+     | |_____^
+     |
+     = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#collapsible_if
+     = note: `#[warn(clippy::collapsible_if)]` on by default
+help: collapse nested if block
+     |
+1662 ~     if now >= expires_at.saturating_sub(60)
+1663 ~         && refresh_chatgpt_token(&mut token_data, now) {
+1664 |             if let Ok(updated) = serde_json::to_string_pretty(&token_data) {
+1665 |                 let _ = std::fs::write(&path, updated);
+1666 |             }
+1667 ~         }
+     |
+
+warning: this `if` can be collapsed into the outer `match`
+    --> crates/screenpipe-core/src/pipes/mod.rs:2393:17
+     |
+2393 | /                 if value
+2394 | |                     .get("willRetry")
+2395 | |                     .and_then(|v| v.as_bool())
+2396 | |                     .unwrap_or(false)
+2397 | |                 {
+2398 | |                     return true;
+2399 | |                 }
+     | |_________________^
+     |
+     = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#collapsible_match
+     = note: `#[warn(clippy::collapsible_match)]` on by default
+help: collapse nested if block
+     |
+2392 ~             Some("compaction_end") if saw_successful_agent_end
+2393 ~                 && value
+2394 |                     .get("willRetry")
+2395 |                     .and_then(|v| v.as_bool())
+2396 |                     .unwrap_or(false)
+2397 ~                 => {
+2398 |                     return true;
+2399 ~                 }
+     |
+
+warning: this block may be rewritten with the `?` operator
+    --> crates/screenpipe-core/src/pipes/mod.rs:8071:32
+     |
+8071 |       let (prefix, local_hour) = if let Some(at_pos) = s.find(" at ") {
+     |  ________________________________^
+8072 | |         let time_str = s[at_pos + 4..].trim();
+8073 | |         let h = parse_time_str(time_str)?;
+8074 | |         (s[..at_pos].trim(), h)
+8075 | |     } else {
+8076 | |         return None;
+8077 | |     };
+     | |_____^
+     |
+     = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#question_mark
+     = note: `#[warn(clippy::question_mark)]` on by default
+help: replace it with
+     |
+8071 ~     let (prefix, local_hour) = {
+8072 +         let at_pos = s.find(" at ")?;
+8073 +         let time_str = s[at_pos + 4..].trim();
+8074 +         let h = parse_time_str(time_str)?;
+8075 +         (s[..at_pos].trim(), h)
+8076 ~     };
+     |
+
+warning: `screenpipe-core` (lib) generated 7 warnings (run `cargo clippy --fix --lib -p screenpipe-core -- ` to apply 5 suggestions)
+warning: very complex type used. Consider factoring parts into `type` definitions
+    --> crates/screenpipe-db/src/db/meetings.rs:1210:29
+     |
+1210 |         let mut candidates: std::collections::HashMap<(bool, String), Vec<(i64, i64, String)>> =
+     |                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#type_complexity
+     = note: `#[warn(clippy::type_complexity)]` on by default
+
+warning: very complex type used. Consider factoring parts into `type` definitions
+    --> crates/screenpipe-db/src/db/search.rs:1704:20
+     |
+1704 |         let range: Option<(Option<DateTime<Utc>>, Option<DateTime<Utc>>)> = sqlx::query_as(
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#type_complexity
+
+warning: usage of `bool::then` in `filter_map`
+   --> crates/screenpipe-db/src/storage/bulk/codec.rs:231:14
+    |
+231 |             .filter_map(|&p| (p >= offset && p < offset + count).then(|| p - offset))
+    |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ help: use `filter` then `map` instead: `filter(|&&p| (p >= offset && p < offset + count)).map(|&p| p - offset)`
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#filter_map_bool_then
+    = note: `#[warn(clippy::filter_map_bool_then)]` on by default
+
+warning: casting to the same type is unnecessary (`u32` -> `u32`)
+  --> crates/screenpipe-db/src/storage/bulk/connection.rs:98:17
+   |
+98 |                 (ffi::SQLITE_TRACE_STMT | ffi::SQLITE_TRACE_PROFILE) as u32,
+   |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ help: try: `((ffi::SQLITE_TRACE_STMT | ffi::SQLITE_TRACE_PROFILE))`
+   |
+   = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#unnecessary_cast
+   = note: `#[warn(clippy::unnecessary_cast)]` on by default
+
+warning: casting to the same type is unnecessary (`u32` -> `u32`)
+   --> crates/screenpipe-db/src/storage/bulk/connection.rs:209:21
+    |
+209 |         if event == ffi::SQLITE_TRACE_STMT as u32 {
+    |                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ help: try: `ffi::SQLITE_TRACE_STMT`
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#unnecessary_cast
+
+warning: casting to the same type is unnecessary (`u32` -> `u32`)
+   --> crates/screenpipe-db/src/storage/bulk/connection.rs:214:28
+    |
+214 |         } else if event == ffi::SQLITE_TRACE_PROFILE as u32 {
+    |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ help: try: `ffi::SQLITE_TRACE_PROFILE`
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#unnecessary_cast
+
+warning: this expression creates a reference which is immediately dereferenced by the compiler
+   --> crates/screenpipe-db/src/storage/bulk/elements/vtab.rs:272:26
+    |
+272 |         let old = lookup(&db, &self.storage, id)?;
+    |                          ^^^ help: change this to: `db`
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#needless_borrow
+    = note: `#[warn(clippy::needless_borrow)]` on by default
+
+warning: this expression creates a reference which is immediately dereferenced by the compiler
+   --> crates/screenpipe-db/src/storage/bulk/elements/vtab.rs:279:29
+    |
+279 |         let file = location(&db, id)?.map(|r| r.0);
+    |                             ^^^ help: change this to: `db`
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#needless_borrow
+
+warning: this expression creates a reference which is immediately dereferenced by the compiler
+   --> crates/screenpipe-db/src/storage/bulk/elements/vtab.rs:499:31
+    |
+499 |                     if lookup(&db, &self.storage, row.get(0)?)?.is_none() {
+    |                               ^^^ help: change this to: `db`
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#needless_borrow
+
+warning: very complex type used. Consider factoring parts into `type` definitions
+   --> crates/screenpipe-db/src/storage/bulk/mod.rs:200:21
+    |
+200 |     element_frames: Mutex<Option<(String, Arc<std::collections::HashMap<i64, Vec<usize>>>)>>,
+    |                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#type_complexity
+
+error: variables in the condition are not mutated in the loop body
+   --> crates/screenpipe-db/src/storage/in_place.rs:218:19
+    |
+218 |             while archive {
+    |                   ^^^^^^^
+    |
+    = note: this may lead to an infinite or to a never running loop
+    = note: this loop contains `return`s or `break`s
+    = help: rewrite it as `if cond { loop { } }`
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#while_immutable_condition
+    = note: `#[deny(clippy::while_immutable_condition)]` on by default
+
+warning: very complex type used. Consider factoring parts into `type` definitions
+   --> crates/screenpipe-db/src/storage/reader.rs:321:24
+    |
+321 |         let mut files: HashMap<String, (String, String, String, String, Vec<(i64, i64)>)> =
+    |                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#type_complexity
+
+warning: explicit call to `.into_iter()` in function argument accepting `IntoIterator`
+    --> crates/screenpipe-db/src/write_queue.rs:1666:45
+     |
+1666 |     for (pw, result) in batch.drain(..).zip(results.into_iter()) {
+     |                                             ^^^^^^^^^^^^^^^^^^^
+     |
+note: this parameter accepts any `IntoIterator`, so you don't need to call `.into_iter()`
+    --> /rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/core/src/iter/traits/iterator.rs:632:11
+     = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#useless_conversion
+     = note: `#[warn(clippy::useless_conversion)]` on by default
+help: consider removing the `.into_iter()`
+     |
+1666 -     for (pw, result) in batch.drain(..).zip(results.into_iter()) {
+1666 +     for (pw, result) in batch.drain(..).zip(results) {
+     |
+
+warning: `screenpipe-db` (lib) generated 13 warnings
+error: could not compile `screenpipe-db` (lib) due to 1 previous error; 13 warnings emitted
+warning: build failed, waiting for other jobs to finish...
