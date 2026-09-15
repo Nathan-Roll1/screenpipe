@@ -10,6 +10,6 @@ The supported native command was started from `apps/screenpipe-app-tauri`:
 HF_HOME=/path/to/staged-hf-cache RUSTUP_TOOLCHAIN=stable bun run test:tauri orukeet
 ```
 
-The first attempt stopped because sccache was missing. After installing sccache 0.17.0, the second attempt acquired the required machine-wide build queue and started `pre_build.js`. At initial publication it was still downloading the required ffprobe native dependency; native compilation/tests had not completed. No raw Cargo/Tauri or uncached compilation fallback was used.
+The first attempt stopped because sccache was missing. After installing sccache 0.17.0, the second attempt acquired the required machine-wide build queue and started `pre_build.js`. The attempt was stopped after 16 minutes 30 seconds while still downloading the required ffprobe native dependency; it exited 143 and released the build queue. Native compilation/tests did not run. No raw Cargo/Tauri or uncached compilation fallback was used. [Final native setup log](native-app-check-public.log).
 
 Native picker/capture, all-day memory and battery checks remain unverified. Automated CLI/model validation is listed in the main README and is distinct from desktop end-to-end validation.

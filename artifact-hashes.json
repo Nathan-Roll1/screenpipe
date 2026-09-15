@@ -106,5 +106,9 @@
   "validation/frontend-typecheck-public.log": {
     "sha256": "b476889bf992c65567e696d34bb53db0d41da203e4a09cf5187543c1500899da",
     "original_sha256": "b476889bf992c65567e696d34bb53db0d41da203e4a09cf5187543c1500899da"
+  },
+  "validation/native-app-check-public.log": {
+    "sha256": "947a4fe7ac38fa1219589e5821366391a25867c9b8f8e29ec04e9f8765c08ebf",
+    "original_sha256": "493cd2fded52c67986deca66088d5a2957058f982ee0a58ab5db56f0106493b5"
   }
 }

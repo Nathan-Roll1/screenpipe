@@ -1,0 +1,13 @@
+$ bun scripts/native-build-queue.ts test orukeet
+[native-build-queue] acquired system build slot: queued native app tests
+[native-build-queue] running: bun scripts/pre_build.js
+cwd <screenpipe-checkout>/apps/screenpipe-app-tauri/src-tauri
+populating native dependency cache: ffmpeg-macos-aarch64-osxexperts-7
+downloading https://www.osxexperts.net/ffmpeg7arm.zip -> <home>/.cache/screenpipe/native-deps/ffmpeg-macos-aarch64-osxexperts-7.populate-41015-61494f04-6cff-4cf6-a1b1-72c0608313c2.zip (1/10)
+Archive:  <home>/.cache/screenpipe/native-deps/ffmpeg-macos-aarch64-osxexperts-7.populate-41015-61494f04-6cff-4cf6-a1b1-72c0608313c2.zip
+  inflating: <home>/.cache/screenpipe/native-deps/ffmpeg-macos-aarch64-osxexperts-7.populate-41015-61494f04-6cff-4cf6-a1b1-72c0608313c2.extract/ffmpeg  
+restoring native dependency from cache: ffmpeg-macos-aarch64-osxexperts-7
+populating native dependency cache: ffprobe-macos-aarch64-osxexperts-7.1
+downloading https://www.osxexperts.net/ffprobe71arm.zip -> <home>/.cache/screenpipe/native-deps/ffprobe-macos-aarch64-osxexperts-7.1.populate-41015-639d7c02-28da-450f-bcac-56b307a662d6.zip (1/10)
+[native-build-queue] released system build slot after 16m 30s
+error: script "test:tauri" exited with code 143
